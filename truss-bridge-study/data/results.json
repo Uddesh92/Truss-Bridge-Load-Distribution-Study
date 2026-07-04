@@ -1,0 +1,48 @@
+{
+  "project": "Truss Bridge Load Distribution Study",
+  "project_number": 2,
+  "results": {
+    "pratt": {
+      "mass_g": 100,
+      "predicted_failure_member": "Bottom chord (outer)",
+      "predicted_force_n": 7.29,
+      "actual_failure_load_n": 6.8,
+      "actual_first_fail_member": "Top chord outer",
+      "failure_mode": "Deflection",
+      "prediction_correct": false
+    },
+    "howe": {
+      "mass_g": 85,
+      "predicted_failure_member": "Bottom chord (outer)",
+      "predicted_force_n": 7.29,
+      "actual_failure_load_n": 4.90,
+      "actual_first_fail_member": "Diagonals",
+      "failure_mode": "Deflection",
+      "prediction_correct": false
+    }
+  },
+  "final_report": {
+    "pratt": {
+      "bridge_weight_g": 100,
+      "number_of_sticks": 98,
+      "joining_method": "Fevicol + Tape",
+      "test_load_applied_g": 500,
+      "failure": "No (structure intact)",
+      "observed_behaviour": "Sway/deflection",
+      "deflection": "Present (without fracture)",
+      "load_capacity_g": 500,
+      "efficiency_ratio": 5.0
+    },
+    "howe": {
+      "bridge_weight_g": 85,
+      "number_of_sticks": 78,
+      "joining_method": "Fevicol + Tape",
+      "test_load_applied_g": 500,
+      "failure": "No (structure intact)",
+      "observed_behaviour": "Sway/deflection",
+      "deflection": "Present (without fracture)",
+      "load_capacity_g": 500,
+      "efficiency_ratio": 5.9
+    }
+  }
+}

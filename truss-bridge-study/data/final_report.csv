@@ -1,0 +1,10 @@
+Metric,Pratt,Howe
+Bridge Weight (g),100,85
+Number of Sticks,98,78
+Joining Method,Fevicol + Tape,Fevicol + Tape
+Test Load Applied (g),500,500
+Failure,No (structure intact),No (structure intact)
+Observed Behaviour,Sway/deflection,Sway/deflection
+Deflection,Present (without fracture),Present (without fracture)
+Load Capacity (g),500,500
+Efficiency Ratio,5.0,5.9
